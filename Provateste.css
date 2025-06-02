@@ -1,0 +1,58 @@
+body {
+color: white;
+background-color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ul {
+     font-family: "Boldonse", system-ui;
+     size: 5px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    size: 1500px; 
+    width: 1500px;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    Flex-direction:column;
+}
+
+h1 {
+     font-family: "Boldonse", system-ui;
+     size: 135px;
+     color: rgb(255, 255, 255);
+     align-self: center;
+}
+
+h3 {
+     font-family: "Boldonse", system-ui;
+     size: 135px;
+     color: rgb(255, 255, 255);
+}
+
+p{
+    font-family: "Roboto", sans-serif;;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 10px;
+}
